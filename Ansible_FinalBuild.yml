@@ -61,6 +61,7 @@
 
       # Retrieve the actual template from the resource pool
       template: Kali-Template 
+      name: IT416-Kali-Vinson.internal.it416.com
 
       # Create the VM in the cluster located in the BEST building.
       cluster: BEST
@@ -68,7 +69,7 @@
 
       # Add the requried network and Hardware requirements
       networks:
-      - name: VM_Network
+      - name: IT416_WAN
         ip: 192.168.5.247
         netmask: 255.255.255.0
         gateway: 192.168.5.254
